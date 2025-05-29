@@ -5,7 +5,7 @@ export class CreateUserDto {
     name : string;
     @ApiProperty({example : 'string' , description : 'family' })
     family : string;  
-    @ApiProperty({example : 'string' , description : 'age' })
+    @ApiProperty({example : 'int' , description : 'age' })
     age? : number;
     @ApiProperty({example : 'string' , description : 'phone' })
     phone? : string;
